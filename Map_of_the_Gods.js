@@ -88,7 +88,7 @@ d3.json("countries.geo.json", function(json) {
 		        if (circle == 1) {
 		            return "grey";
 		        } else {
-		            return "grey";//We need to automatically color every damn continent
+		            return "grey";//We need to automatically color every continent
 		        }
             });
             
