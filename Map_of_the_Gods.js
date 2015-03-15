@@ -76,6 +76,7 @@ d3.json("countries.geo.json", function(json) {
                     json.features[j].properties.WikiLink = csvWikiLink;
                     json.features[j].properties.Picture = csvPicture;
 					break;
+<<<<<<< HEAD
                 }//if(csvLocation == jsonCountry
             }//for loop
         }//outer for loop
@@ -114,6 +115,29 @@ d3.json("countries.geo.json", function(json) {
             else {
                 return "grey";}
         });//This is for the stlye attribute for the path
+=======
+				}
+			}
+		}
+		// Push all paths to the svg
+        //Wheveter you do, do not remove the g.
+		g.selectAll("path")
+        	.data(json.features)
+            .enter()
+            .append("path")
+            .attr("d", path)
+            // Fill the country colors, the color found, or if
+            //		a color was not found, paint it white.
+            .style("fill", function(d) {
+		        //var color = d.properties.color;
+                var circle = d.properties.circle;
+		        if (circle == 1) {
+		            return "grey";
+		        } else {
+		            return "grey";//We need to automatically color every continent
+		        }
+            });
+>>>>>>> origin/master
             
      //We will now create all of the circles and Gods
         g.selectAll("circle")
