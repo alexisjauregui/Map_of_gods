@@ -15,7 +15,7 @@ var zoom = d3.behavior.zoom().scaleExtent([1,8]).on("zoom", zoomed);
 //Create the canvas
 var svg = d3.select("#container")
 	        .append("svg")
-	        .attr("width", width+275)
+	        .attr("width", width)
 	        .attr("height", height)
             .append("g");
 
@@ -76,7 +76,6 @@ d3.json("countries.geo.json", function(json) {
                     json.features[j].properties.WikiLink = csvWikiLink;
                     json.features[j].properties.Picture = csvPicture;
 					break;
-<<<<<<< HEAD
                 }//if(csvLocation == jsonCountry
             }//for loop
         }//outer for loop
@@ -115,29 +114,6 @@ d3.json("countries.geo.json", function(json) {
             else {
                 return "grey";}
         });//This is for the stlye attribute for the path
-=======
-				}
-			}
-		}
-		// Push all paths to the svg
-        //Wheveter you do, do not remove the g.
-		g.selectAll("path")
-        	.data(json.features)
-            .enter()
-            .append("path")
-            .attr("d", path)
-            // Fill the country colors, the color found, or if
-            //		a color was not found, paint it white.
-            .style("fill", function(d) {
-		        //var color = d.properties.color;
-                var circle = d.properties.circle;
-		        if (circle == 1) {
-		            return "grey";
-		        } else {
-		            return "grey";//We need to automatically color every continent
-		        }
-            });
->>>>>>> origin/master
             
      //We will now create all of the circles and Gods
         g.selectAll("circle")
@@ -177,24 +153,22 @@ d3.json("countries.geo.json", function(json) {
                 })//These brackets match to the style for circles and end the selectALL()
         
          .on('mouseover', function(d) {
-            
             tooltip.transition()
-                   .duration(200)
+                   .duration(400)
+                   .style("opacity", 0);
+            tooltip.transition()
+                   .duration(100)
                    .style("fill", "black")
                    .style("opacity", ".9");
             tooltip.html("<img src = " + d.picture+">" + "<br>" + "Name: " + d.name + "<br>"
                         + "Culture: " + d.culture + "<br>" + "Region: " + d.location + "<br>"
                         + "Gender: " + d.gender + "<br>" + "Species: " + d.species + "<br>" +
-                        '<a href = "' + d.linkwik + '>' + "Wikipedia Source" + "</a>" + "Gender: " + d.gender + "<br>" + "Species: " + d.species + "<br>"
-                        )
+                        '<a href = "' + d.linkwik + '">' + "Wikipedia Source" + "</a>")
                    .style("left", (d3.event.pageX ) + "px")
                    .style("top", (d3.event.pageY) + "px")})
     
-          .on('mouseout', function(d) {
-            tooltip.transition()
-                   .duration(500)
-                   .style("opacity", 0)});
-       
+         
+          
     
         
          
