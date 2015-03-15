@@ -161,6 +161,7 @@ d3.json("countries.geo.json", function(json) {
                    .style("fill", "black")
                    .style("opacity", ".9");
             tooltip.html("<img src = " + d.picture+">" + "<br>" + "Name: " + d.name + "<br>"
+                         + "Type: " + d.type + "<br>" 
                         + "Culture: " + d.culture + "<br>" + "Region: " + d.location + "<br>"
                         + "Gender: " + d.gender + "<br>" + "Species: " + d.species + "<br>" +
                         '<a href = "' + d.linkwik + '">' + "Wikipedia Source" + "</a>")
