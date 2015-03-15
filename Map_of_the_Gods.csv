@@ -1,14 +1,14 @@
 name,culture,location,gender,species,type,linkwik,linkgc,lon,lat,picture
-Centeotl,Aztec,Mexico,Male,Human,Agriculture,http://en.wikipedia.org/wiki/Centeotl,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=CENTEOTL,-90.067934,17.819326,"Heart1.png"
-Mictlantecuhtli,Aztec,Mexico,Male,Human,Death,http://en.wikipedia.org/wiki/Mictecacihuatl,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=MICTLANTECUHTLI,-115.887365,30.180794,CMPS\ 185/Map_of_gods-master/Heart1.png
-Xochiquetzal,Aztec,Mexico,Female,Human,Love,http://en.wikipedia.org/wiki/Xochiquetzal,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=XOCHIQUETZAL,-105.63159,31.08383
-Coyolxauhqui,Aztec,Mexico,Female,Human,Moon,http://en.wikipedia.org/wiki/Coyolxauhqui,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=COYOLXAUHQUI,-114.199329,28.115003
-Coatlicue,Aztec,Mexico,Female,Animal,Motherhood,http://en.wikipedia.org/wiki/Coatlicue,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=COATLICUE,-109.433392,23.185588
-Chalchiuhtlicue,Aztec,Mexico,Female,Human,Sea,http://en.wikipedia.org/wiki/Chalchiuhtlicue,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=CHALCHIUHTLICUE,-113.588875,29.061611
-Tlaloc,Aztec,Mexico,Male,Human,Storm,http://en.wikipedia.org/wiki/Tlaloc,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=TLALOC,-112.228235,28.954409
+Centeotl,Aztec,Mexico,Male,Human,Agriculture,http://en.wikipedia.org/wiki/Centeotl,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=CENTEOTL,-90.067934,17.819326,aztec/Centeotl-01.png
+Mictlantecuhtli,Aztec,Mexico,Male,Human,Death,http://en.wikipedia.org/wiki/Mictecacihuatl,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=MICTLANTECUHTLI,-115.887365,30.180794,aztec/Mictlantecuhtli-01.png
+Xochiquetzal,Aztec,Mexico,Female,Human,Love,http://en.wikipedia.org/wiki/Xochiquetzal,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=XOCHIQUETZAL,-105.63159,31.08383,aztec/Xochiquetzal-01.png
+Coyolxauhqui,Aztec,Mexico,Female,Human,Moon,http://en.wikipedia.org/wiki/Coyolxauhqui,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=COYOLXAUHQUI,-114.199329,28.115003,aztec/Coyolxauhqui-01.png
+Coatlicue,Aztec,Mexico,Female,Animal,Motherhood,http://en.wikipedia.org/wiki/Coatlicue,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=COATLICUE,-109.433392,23.185588,aztec/coatlicue-01.png
+Chalchiuhtlicue,Aztec,Mexico,Female,Human,Sea,http://en.wikipedia.org/wiki/Chalchiuhtlicue,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=CHALCHIUHTLICUE,-113.588875,29.061611,aztec/Chalchiuhtlicue-01.png
+Tlaloc,Aztec,Mexico,Male,Human,Storm,http://en.wikipedia.org/wiki/Tlaloc,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=TLALOC,-112.228235,28.954409,aztec/Tlaloc-01.png
 Tonatiuh,Aztec,Mexico,Male,Human,Sun,http://en.wikipedia.org/wiki/Tonatiuh,,-96.053382,15.752088,aztec/Tonatiuh-01.png
-Huitzilopochtli,Aztec,Mexico,Male,Animal,War,http://en.wikipedia.org/wiki/Huitzilopochtli,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=HUITZILOPOCHTLI,-90.77187,19.28412
-Quetzalcoatl,Aztec,Mexico,Male,Animal,Wisdom,http://en.wikipedia.org/wiki/Quetzalcoatl,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=QUETZALCOATL,-97.140008,25.869997
+Huitzilopochtli,Aztec,Mexico,Male,Animal,War,http://en.wikipedia.org/wiki/Huitzilopochtli,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=HUITZILOPOCHTLI,-90.77187,19.28412,aztec/Huitzilopochtli-01.png
+Quetzalcoatl,Aztec,Mexico,Male,Animal,Wisdom,http://en.wikipedia.org/wiki/Quetzalcoatl,http://www.godchecker.com/pantheon/aztec-mythology.php?deity=QUETZALCOATL,-97.140008,25.869997,aztec/Quetzalcoatl-01.png
 Arawn,Celtic,United Kingdom,Male,Human,Death,http://en.wikipedia.org/wiki/Arawn,http://www.godchecker.com/pantheon/celtic-mythology.php?deity=ARAWN,-6.95373,54.073702
 Aonghus,Celtic,United Kingdom,Male,Human,Love,http://en.wikipedia.org/wiki/Aengus,http://www.godchecker.com/pantheon/celtic-mythology.php?deity=AONGHUS,-1.959281,57.6848
 Arianrhod,Celtic,United Kingdom,Female,Human,Moon,http://en.wikipedia.org/wiki/Arianrhod,http://www.godchecker.com/pantheon/celtic-mythology.php?deity=ARIANRHOD,1.681531,52.73952
