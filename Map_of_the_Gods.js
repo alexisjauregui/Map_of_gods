@@ -102,7 +102,7 @@ d3.json("countries.geo.json", function(json) {
             if(country === "Peru") {
                    return "#668719";}//green yellow
             if(country === "Egypt") {
-                   return "#efc873";}//beige
+                   return "#ef7890";}//beige
             if(country === "Denmark") {
                    return "#384c5b";}//bluegrey
             if(country === "Finland") {
