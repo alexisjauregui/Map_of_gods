@@ -1,8 +1,9 @@
 // Width and height
 var width = document.getElementById('container').offsetWidth-60,
-    height = 600;
+    height = 500;
 
 var projection = d3.geo.mercator()
+    .center([0,35])
     .scale((width) / 2 / Math.PI)
     .translate([width / 2, height / 2]);
 
@@ -127,20 +128,22 @@ d3.json("countries.geo.json", function(json) {
           .attr("r", 3)
           .style("fill", function(d) {
                     var typeOfGod = d.type;
-                    if(typeOfGod === "Storm" || typeOfGod ==="Sky") {
+                    if(typeOfGod === "Storm" ) {
+                        return "yellow";}
+                    else if(typeOfGod ==="Sky"){
                         return "#bcb7b8";}
                     else if(typeOfGod === "Death") {
                         return "black";}
                     else if(typeOfGod === "Agriculture") {
-                        return "brown";}
+                        return "#006300";}
                     else if(typeOfGod === "Motherhood") {
                         return "#41f2ba";}
-                    else if(typeOfGod === "War" || typeOfGod ==="Chaos") {
+                    else if(typeOfGod === "War" ) {
                         return "#9e0e0e";}
                     else if(typeOfGod === "Moon") {
                         return "white";}
                     else if(typeOfGod === "Sun") {
-                        return "yellow";}
+                        return "orange";}
                     else if(typeOfGod === "Love") {
                         return "#f74c74";}
                     else if(typeOfGod ===  "Wisdom") {

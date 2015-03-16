@@ -30,16 +30,16 @@ body {
   stroke-width: .5px;
 }
 .tooltip {
-    position: static;
+    position: absolute;
     line-height: 1;
     font-weight: bold;
     padding: 12px;
-    background: rgba(200, 0, 0, 110);
+    background: rgba(50, 150, 150, 110);
     border-right: 10px;
     top:100px;
     color: #000;
     border-radius: 4px;
-    width: 225px;/*tooltip width
+    width: 125px;/*tooltip width
   
 }
 
