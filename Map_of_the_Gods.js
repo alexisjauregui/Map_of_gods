@@ -149,7 +149,7 @@ d3.json("countries.geo.json", function(json) {
                     else if(typeOfGod === "Love") {
                         return "#ff99ff";}
                     else if(typeOfGod ===  "Wisdom") {
-                        return "purple";}
+                        return "#9900ff";}
                     else if(typeOfGod === "Sea") {
                         return "blue";}
                       
@@ -174,10 +174,172 @@ d3.json("countries.geo.json", function(json) {
                    .style("top", (d3.event.pageY) + "px")})
     
          
-          
-    
-        
-         
             
     });//These bracets are for d3.csv line above
 });//These brackets are for d3.json line
+
+
+//Legend
+  svg.append("rect")
+        .attr("x", width-220)
+        .attr("y", height-190)
+        .attr("width", 200)
+        .attr("rx", 10)
+        .attr("ry", 10)
+        .style("opacity",0.5)
+        .attr("height", 180)
+        .attr("fill", "lightgrey")
+        .style("stroke-size", "1px");
+
+    svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-120)
+        .attr("cy", height-175)
+        .style("fill", "#bcb7b8");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -130)
+        .attr("y", height-172)
+        .style("text-anchor", "end")
+        .text("Sky");
+
+   svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-40)
+        .attr("cy", height-175)
+        .style("fill", "yellow");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -50)
+        .attr("y", height-172)
+        .style("text-anchor", "end")
+        .text("Storm");
+
+
+    svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-120)
+        .attr("cy", height-150)
+        .style("fill", "white");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -130)
+        .attr("y", height-150)
+        .style("text-anchor", "end")
+        .text("Moon");
+
+   svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-40)
+        .attr("cy", height-150)
+        .style("fill", "orange");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -50)
+        .attr("y", height-150)
+        .style("text-anchor", "end")
+        .text("Sun");
+
+   svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-120)
+        .attr("cy", height-125)
+        .style("fill", "006300");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -130)
+        .attr("y", height-125)
+        .style("text-anchor", "end")
+        .text("Agriculture");
+
+   svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-40)
+        .attr("cy", height-125)
+        .style("fill", "blue");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -50)
+        .attr("y", height-125)
+        .style("text-anchor", "end")
+        .text("Sea");
+
+  svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-120)
+        .attr("cy", height-100)
+        .style("fill", "#9e0e0e");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -130)
+        .attr("y", height-100)
+        .style("text-anchor", "end")
+        .text("War");
+
+   svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-40)
+        .attr("cy", height-100)
+        .style("fill", "#ff99ff");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -50)
+        .attr("y", height-100)
+        .style("text-anchor", "end")
+        .text("Love");
+
+  svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-120)
+        .attr("cy", height-75)
+        .style("fill", "#41f2ba");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -130)
+        .attr("y", height-75)
+        .style("text-anchor", "end")
+        .text("Motherhood");
+
+   svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-40)
+        .attr("cy", height-75)
+        .style("fill", "black");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -50)
+        .attr("y", height-75)
+        .style("text-anchor", "end")
+        .text("Death");
+
+   svg.append("circle")
+        .attr("r", 5)
+        .attr("cx", width-120)
+        .attr("cy", height-50)
+        .style("fill", "#9900ff");
+
+    svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -130)
+        .attr("y", height-50)
+        .style("text-anchor", "end")
+        .text("Wisdom");
+
+     svg.append("text")
+        .attr("class", "label")
+        .attr("x", width -120)
+        .attr("y", height-15)
+        .style("text-anchor", "middle")
+        .style("fill", "white") 
+        .attr("font-size", "20px")
+        .text("Guide to the Gods");   
