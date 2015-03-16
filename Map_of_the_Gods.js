@@ -93,25 +93,27 @@ d3.json("countries.geo.json", function(json) {
             if(country === "Mexico") {
                    return "#410d66";}//purple  
             if(country === "Greece") {
-                   return "#af560e";}//orange
+                   return "#000072";}//aqua
             if(country === "Japan") {
                    return "#c90e0e";}//red
             if(country === "United Kingdom") {
-                   return "#217f05";}//green        
+                   return "#194719";}
+            if(country === "Ireland") {
+                   return "#194719";}//green        
             if(country === "Nigeria") {
-                   return "#9b6e5a";}//light brown
+                   return "#ff9900";}//light brown
             if(country === "Peru") {
-                   return "#668719";}//green yellow
+                   return "#85ad33";}//green yellow
             if(country === "Egypt") {
-                   return "#ef7890";}//beige
+                   return "#ff5050";}//salmony
             if(country === "Denmark") {
-                   return "#384c5b";}//bluegrey
+                   return "#75A3A3";}//bluegrey
             if(country === "Finland") {
-                   return "#384c5b";}
+                   return "#75A3A3";}
             if(country === "Norway") {
-                   return "#384c5b";}
+                   return "#75A3A3";}
             if(country === "Sweden") {
-                   return "#384c5b";}
+                   return "#75A3A3";}
             else {
                 return "grey";}
         });//This is for the stlye attribute for the path
@@ -145,7 +147,7 @@ d3.json("countries.geo.json", function(json) {
                     else if(typeOfGod === "Sun") {
                         return "orange";}
                     else if(typeOfGod === "Love") {
-                        return "#f74c74";}
+                        return "#ff99ff";}
                     else if(typeOfGod ===  "Wisdom") {
                         return "purple";}
                     else if(typeOfGod === "Sea") {

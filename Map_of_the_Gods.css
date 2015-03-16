@@ -1,6 +1,6 @@
 body {
    background-image: url("http://backgroundimages.eu/albums/background/papyrus-old-stationery.jpg");
-    
+   background-size: cover;    
 }
 
 .stroke {
