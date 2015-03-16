@@ -133,13 +133,13 @@ d3.json("countries.geo.json", function(json) {
                     if(typeOfGod === "Storm" ) {
                         return "yellow";}
                     else if(typeOfGod ==="Sky"){
-                        return "#bcb7b8";}
+                        return "#87CEFA";}
                     else if(typeOfGod === "Death") {
                         return "black";}
                     else if(typeOfGod === "Agriculture") {
                         return "#006300";}
                     else if(typeOfGod === "Motherhood") {
-                        return "#41f2ba";}
+                        return "#99FF99";}
                     else if(typeOfGod === "War" ) {
                         return "#9e0e0e";}
                     else if(typeOfGod === "Moon") {
@@ -195,7 +195,7 @@ d3.json("countries.geo.json", function(json) {
         .attr("r", 5)
         .attr("cx", width-120)
         .attr("cy", height-175)
-        .style("fill", "#bcb7b8");
+        .style("fill", "#87CEFA");
 
     svg.append("text")
         .attr("class", "label")
@@ -248,7 +248,7 @@ d3.json("countries.geo.json", function(json) {
         .attr("r", 5)
         .attr("cx", width-120)
         .attr("cy", height-125)
-        .style("fill", "006300");
+        .style("fill", "#006300");
 
     svg.append("text")
         .attr("class", "label")
@@ -300,7 +300,7 @@ d3.json("countries.geo.json", function(json) {
         .attr("r", 5)
         .attr("cx", width-120)
         .attr("cy", height-75)
-        .style("fill", "#41f2ba");
+        .style("fill", "#99FF99");
 
     svg.append("text")
         .attr("class", "label")
