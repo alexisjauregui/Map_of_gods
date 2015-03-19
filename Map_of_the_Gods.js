@@ -45,6 +45,7 @@ d3.select(self.frameElement).style("height", height + "px");
 //Parse the data
 //Data will be graabed from countries.geo.json and
 //Map_of_Gods.csv
+//Below code was supplemented from LA v SF group
 d3.json("countries.geo.json", function(json) {	
     d3.csv("Map_of_the_Gods.csv", function(data) {
         // Go through each element of the csv
@@ -128,6 +129,7 @@ d3.json("countries.geo.json", function(json) {
           .attr("cy", function(d) {
                 return projection([d.lon, d.lat])[1];})
           .attr("r", 3)
+          .transition(50)
           .style("fill", function(d) {
                     var typeOfGod = d.type;
                     if(typeOfGod === "Storm" ) {
@@ -169,7 +171,8 @@ d3.json("countries.geo.json", function(json) {
                          + "Type: " + d.type + "<br>" 
                         + "Culture: " + d.culture + "<br>" + "Region: " + d.location + "<br>"
                         + "Gender: " + d.gender + "<br>" + "Species: " + d.species + "<br>" +
-                        '<a href = "' + d.linkwik + '">' + "Wikipedia Source" + "</a>")
+                        '<a href = "' + d.linkwik + '">' + "Wikipedia Source" + "</a>" + 
+                        '<a href = "' + d.linkgc + '">' + "GodChecker Source" + "</a>")
                    .style("left", (d3.event.pageX ) + "px")
                    .style("top", (d3.event.pageY) + "px")})
     
@@ -342,4 +345,4 @@ d3.json("countries.geo.json", function(json) {
         .style("text-anchor", "middle")
         .style("fill", "black") 
         .attr("font-size", "20px")
-        .text("Guide to the Gods");   
+        .text("Type of Diety");   
