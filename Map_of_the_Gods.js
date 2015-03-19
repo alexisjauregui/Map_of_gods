@@ -130,7 +130,7 @@ d3.json("countries.geo.json", function(json) {
           .attr("cy", function(d) {
                 return projection([d.lon, d.lat])[1];})
           .attr("r", 3)
-          .transition(50)
+          
           .style("fill", function(d) {
                     var typeOfGod = d.type;
                     if(typeOfGod === "Storm" ) {
