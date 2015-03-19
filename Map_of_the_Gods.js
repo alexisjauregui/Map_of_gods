@@ -340,6 +340,6 @@ d3.json("countries.geo.json", function(json) {
         .attr("x", width -120)
         .attr("y", height-15)
         .style("text-anchor", "middle")
-        .style("fill", "white") 
+        .style("fill", "black") 
         .attr("font-size", "20px")
         .text("Guide to the Gods");   
