@@ -76,6 +76,7 @@ d3.json("countries.geo.json", function(json) {
                     json.features[j].properties.Species = csvSpecies;
                     json.features[j].properties.Type = csvType;
                     json.features[j].properties.WikiLink = csvWikiLink;
+                    json.features[j].properties.GCLink = csvGCLink;
                     json.features[j].properties.Picture = csvPicture;
 					break;
                 }//if(csvLocation == jsonCountry
