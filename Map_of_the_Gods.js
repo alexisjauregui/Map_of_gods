@@ -171,7 +171,7 @@ d3.json("countries.geo.json", function(json) {
                          + "Type: " + d.type + "<br>" 
                         + "Culture: " + d.culture + "<br>" + "Region: " + d.location + "<br>"
                         + "Gender: " + d.gender + "<br>" + "Species: " + d.species + "<br>" +
-                        '<a href = "' + d.linkwik + '">' + "Wikipedia Source" + "</a>" + "<br>" 
+                        '<a href = "' + d.linkwik + '">' + "Wikipedia Source" + "</a>" + "<br>" +
                         '<a href = "' + d.linkgc + '">' + "GodChecker Source" + "</a>")
                    .style("left", (d3.event.pageX ) + "px")
                    .style("top", (d3.event.pageY) + "px")})
